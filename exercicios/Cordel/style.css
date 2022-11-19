@@ -1,0 +1,100 @@
+@charset "UFT-8";
+
+@font-face{
+    font-family: font1;
+    src: url('fontes/PassionOne-Black.ttf') format('truetype');
+}
+@font-face{
+    font-family: font2;
+    src: url('fontes/PassionOne-Bold.ttf') format('truetype');
+}
+@font-face{
+    font-family: font3;
+    src: url('fontes/PassionOne-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: font4;
+    src: url('fontes/Sriracha-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: font5;
+    src: url('PassionOne-Regular.ttf') format('truetype');
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    min-height: 100vh;
+    font-family: font4;
+    font-weight: bold;
+}
+header{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    background-color: black;
+}
+header > h1{
+   padding-top: 50px;
+   font-variant: small-caps;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 32px;
+}
+header > p{
+    padding-bottom: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:visited{
+    color: white;
+}
+a:active{
+    color: white;
+}
+section{
+         padding-top: 10vh;
+         padding-bottom: 10vh;
+         line-height: 30px;
+         padding-left: 30px;
+}
+.SectionNormal{
+    color: black;
+    background-color: white;
+}
+.SectionImage1{
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url(imagens/background001.jpg);
+   
+}
+.SectionImage2{
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-image: url(imagens/background002.jpg);
+}
+section > p{
+    width: 400px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+footer{
+    padding: 5px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}

@@ -1,0 +1,36 @@
+@charset "UFT-8";
+
+body{
+      font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: red;
+    /*  Retira o sublinhado do link */
+    text-decoration: none;
+    /* Negrito */ 
+    font-weight: bold;
+}
+/* Visitado */
+a:visited{
+           color: darkred;
+}
+/* Passe do mouse */
+a:hover{
+         /* Insere o sublinhado do link */
+         text-decoration: underline;
+         /* O link fica preto */
+         color: black;      
+}
+a:active{
+          /* Quando o link for ativado, ou seja, clicado ele ficará amarelo */
+          color: yellow;
+}
+.especial{
+           background-color:tomato;
+}
+.especial::before{
+           content: '→';
+}
+.especial::after{
+           content: '←';
+}

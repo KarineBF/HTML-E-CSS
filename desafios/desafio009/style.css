@@ -1,0 +1,43 @@
+@charset "UFT-8";
+
+            div > p{
+                      display: none;
+            }
+            div:hover > p{
+                       color: black;
+                       display: block;
+                       background-color: rgb(14, 230, 24);
+                       font-weight: bold;
+            }
+body{
+    background-image: linear-gradient(to right,#43E33D,#A1FA35);
+}
+
+h1{
+     text-align: center;
+     color:#4500FF;
+}
+p{
+    color:#0BE3B7;
+    text-align: center;
+}
+a{
+    text-align: center;
+}
+a:hover{
+         text-decoration: none;
+}
+a:visited{
+            color: red;
+}
+a:active{
+           background-color: #fcff3b;
+}
+.especial::before{
+                    content: '->';
+                    color: black;
+}
+.especial::after{
+                    content: '<-';
+                    color: black
+}

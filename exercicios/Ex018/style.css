@@ -1,0 +1,27 @@
+@charset "UFT-8";
+@font-face {
+    font-family: "Halloween";
+    /* Tipos de format() 
+    - opentype (OTF)
+    - truetype (TTF)
+    - embedded-opentype
+    - truetype-aat
+    - svg
+    */
+    src: url('Fontes/Halloween\ Vibes.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face { 
+    font-family: "Halloween";
+    src: url('Fontes/Halloween\ Vibes.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: "Halloween";
+}
+h1{
+    font-family: "Halloween";
+    font-size: 30px;
+}

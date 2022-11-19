@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradiente em CSS</title>
+    <style>
+        /* Configurações globais das CSS */
+         *{
+            /* Tamanho do gradiente */
+            height: 100%;
+         }
+            
+          body{
+        /* 
+         Gradiente pela direita = to right + cores 
+         Gradiente pela esquerda = to left + cores
+         Gradiente para cima = to top + cores 
+         Gradiente para baixo = to bottom
+         */
+              background-image: linear-gradient(to right, #7F3BB2,#FFBC00,#E4133D);
+              background-image: radial-gradient(circle, #7F3BB2,#FFBC00,#E4133D);
+              background-attachment: fixed;
+              
+          }
+
+    </style>
+</head>
+<body>
+     <h1>Testando gradiente</h1>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UFT-8";
+
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+}
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+div{
+   text-align: center; 
+}

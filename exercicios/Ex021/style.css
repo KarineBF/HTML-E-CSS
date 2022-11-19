@@ -1,0 +1,67 @@
+/*@charset "UFT-8";
+
+
+/* Box level */
+/*h1{ 
+    color: aliceblue;
+    height: 300px;
+    width: 300px;
+
+    border: 10x solid aquamarine;
+
+    /* 
+    border-width: 10px;
+    border-style: solid;
+    border-color: aquamarine; 
+    */
+    
+    /*background-color: rgb(194, 186, 78);
+     
+    padding: 10px; /* Como são iguais, não é necessário colocar quatro vezes
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+
+    /*margin: 20px auto 40px auto; /* Auto = centraliza */
+
+    /*
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    */
+
+    /*outline: 5px dashed coral;
+
+    /*
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: coral;
+    */
+/*}
+ /* Inline-level */
+/*a{
+    height: 10px;
+    width: 10px;
+
+    border: 10x solid black;
+
+    /*
+    border-width: 10px;
+    border-style: solid;
+    background-color: black;
+    */
+
+    /*padding: 10px;
+
+    /*
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    */
+/*}

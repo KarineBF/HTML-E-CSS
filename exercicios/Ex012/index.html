@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+     <h1>Inserindo videos hospedados localmente</h1>
+
+     <p>Este video está hospedado no meu próprio servidor.</p>
+     <!-- Para adicionar video basta utilizar a tag video:
+          Sendo: width = tamanho da miniatura do video
+                 controls = inserir controles do video 
+                 poster = adicionar thumbnail no video
+         Tag video com source: cada source significa um teste de compatibilidade de acordo com o navegador
+     -->
+     <!-- Hospedagem local -->
+     <video width="500"controls poster="imagens/limoes-capa.png" autoplay loop>
+     <source src="midia/meu-video.mp4" type="video/mp4">
+     <source src="midia/meu-video.m4v" type="video/m4v">
+     <source src="midia/meu-video.webm" type="video/webm">
+     <source src="midia/meu-video.ogv" type="video/ogv">
+     <p>Seu navegador não tem compatibilidade com a reprodução de videos.</p>
+     <p><a href="midia/meu-video.mp4">Clique aqui</a> para baixar o video em formato MP4</p>
+     </video>
+
+     <h2>Colocar videos do youtube</h2>
+     <!-- Hospedagens externas -->
+     <iframe width="500" height="315" src="https://www.youtube.com/embed/m7p0C9VJu6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+     <h3>Colocar videos do vimeo</h3>
+     <iframe width="500" height="315" title="vimeo-player" src="https://player.vimeo.com/video/750432905?h=ab55dbe681" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+</body>
+</html>

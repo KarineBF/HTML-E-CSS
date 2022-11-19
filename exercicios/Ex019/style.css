@@ -1,0 +1,33 @@
+@charset "UFT-8";
+
+/* 
+   ID-HTML = #-CSS ( pode somente ser utilizado um ID por página HTML )
+   CLASS-HTML = .CSS ( é possivel usar mais de uma class no CSS --> espaço )
+
+*/
+/* font-style, font-weight, font-size, font-family */
+body{
+    font: normal, 16px, Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,#90E0DA,#E0AF9B);
+    text-align: justify;
+    text-indent: 10px;
+}
+h1{
+    color: #94684E;
+}
+h1#principal{
+            text-align: center;
+            color: rgb(36, 17, 2);
+}
+.basico{        
+         color: #33a100f8;    
+}
+.intermediario{                
+                 color: #fff01d;
+}
+.avancado{           
+             color: #f01000;
+}
+h2{
+     color:#E0A684;
+}
