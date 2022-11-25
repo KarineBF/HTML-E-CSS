@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- Anatomia de tabelas grandes 
+    Table
+          Caption
+          Thead
+                Tr Td Th
+          Tbody 
+                Tr Td Th
+          Tfoot
+                Tr Td Th     
+    -->
+    <style>
+        caption{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: darkgrey;
+            padding: 10px;
+            border: 1px solid black;
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;          
+        }
+        table{
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 100px;      
+        }
+        td,tr,th{
+            border: 1px solid black;
+            padding: 8px;   
+            text-align: center;
+        }
+        th{
+            color: white;
+            background-color: rgba(0, 0, 0, 0.774);
+        }
+        .unidadefederativa{
+            color: rgb(25, 0, 255);
+        }
+        .mudança{
+            color: rgb(49, 211, 31);
+        }
+        .Paiscomparável{
+            color: rgb(25, 0, 255); 
+        }
+        a{
+            color: rgb(25, 0, 255);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:active{
+            color: rgb(25, 0, 255);
+        }
+        a:visited{
+            color: rgb(102, 40, 117);
+        }
+    </style>
+    <table>
+        <caption>População federativa</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th scope="col">
+                <th scope="col">Unidade federativa</th>
+                <th scope="col" >População (2010)</th>
+                <th scope="col">População (2011)</th>
+                <th scope="col">Mudança</th>
+                <th scope="col"> % da poupulação</th>
+                <th scope="col">País comparável</th>
+            </tr>     
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="unidadefederativa"><a href="https://pt.wikipedia.org/wiki/S%C3%A3o_Paulo_(estado)" target="_blank">São Paulo</a></td>
+                <td>41 262 199</td>
+                <td>46 649 132</td>
+                <td class="mudança">+13.05%</td>
+                <td>21,9%</td>
+                <td class="Paiscomparável"><a href="https://pt.wikipedia.org/wiki/Espanha">Espanha</a>(46 439 864)</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="unidadefederativa"><a href="https://pt.wikipedia.org/wiki/Minas_Gerais">Minas Gerais</a></td>
+                <td>19 597 330</td>
+                <td>21 411 923</td>
+                <td class="mudança">+9.26%</td>
+                <td>10,1%</td>
+                <td class="Paiscomparável"><a href="https://pt.wikipedia.org/wiki/Sri_Lanka">Sri Lanka</a> (20 675 000)</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="unidadefederativa"><a href="https://pt.wikipedia.org/wiki/Rio_de_Janeiro">Rio de Janeiro</a></td>
+                <td>15 989 929</td>
+                <td>17 463 349</td>
+                <td class="mudança">+9.21%</td>
+                <td>8,2%</td>
+                <td class="Paiscomparável"><a href="https://pt.wikipedia.org/wiki/S%C3%ADria">Síria</a>(17 500 658)</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="unidadefederativa"><a href="https://pt.wikipedia.org/wiki/Bahia">Bahia</a></td>
+                <td>14 016 906</td>
+                <td>14 985 284	</td>
+                <td class="mudança">+6.91%</td>
+                <td>7,1%</td>
+                <td class="Paiscomparável"><a href="https://pt.wikipedia.org/wiki/Chade">Chade</a>(14 037 000)</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="unidadefederativa"><a href="https://pt.wikipedia.org/wiki/Paran%C3%A1#:~:text=geomorfol%C3%B3gicas%20do%20Paran%C3%A1.-,O%20Paran%C3%A1%20%C3%A9%20uma%20das%2027%20unidades%20federativas%20do%20Brasil,argentina%20de%20Misiones%20a%20sudoeste.">Paraná</a></td>
+                <td>10 444 526</td>
+                <td>11 597 484</td>
+                <td class="mudança">+11.04%	</td>
+                <td>5,4%</td>
+                <td class="Paiscomparável"><a href="https://pt.wikipedia.org/wiki/Bol%C3%ADvia">Bolívia</a>(11 410 651)</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td class="unidadefederativa"><a href="https://pt.wikipedia.org/wiki/Rio_Grande_do_Sul">Rio Grande do Sul</a></td>
+                <td>10 693 929</td>
+                <td>11 466 630</td>
+                <td class="mudança">+7.23%</td>
+                <td>5,4%</td>
+                <td class="Paiscomparável"><a href="https://pt.wikipedia.org/wiki/B%C3%A9lgica">Bélgica</a> (11 250 659)</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td class="unidadefederativa"><a href="https://pt.wikipedia.org/wiki/Pernambuco">Pernambuco</a></td>
+                <td>8 796 448</td>
+                <td>9 674 793</td>
+                <td class="mudança">+9.98%</td>
+                <td>4,5%</td>
+                <td class="Paiscomparável"><a href="https://pt.wikipedia.org/wiki/Bielorr%C3%BAssia">Bielorrússia</a>(9 485 300)</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td class="unidadefederativa"><a href="">Ceará</a></td>
+                <td>8 452 381</td>
+                <td>9 240 580</td>
+                <td class="mudança">+9.32%</td>
+                <td>4,3%</td>
+                <td class="Paiscomparável"><a href="">Emirados Árabes Unidos</a>(9 157 000)</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td class="unidadefederativa"><a href="">Pará</a></td>
+                <td>7 581 051</td>
+                <td>8 777 124</td>
+                <td class="mudança">+15.78%</td>
+                <td>4,1%</td>
+                <td class="Paiscomparável"><a href="">Áustria</a>(8 602 112)</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td class="unidadefederativa"><a href="">Santa Catarina</a></td>
+                <td>6 248 436</td>
+                <td>7 338 473</td>
+                <td class="mudança">+17.44%</td>
+                <td>3,4%</td>
+                <td class="Paiscomparável"><a href="">Sérvia</a>(7 114 393)</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td class="unidadefederativa"><a href="">Goiás</a></td>
+                <td>6 003 788</td>
+                <td>7 206 589</td>
+                <td class="mudança">+20.03%</td>
+                <td>3,4%</td>
+                <td class="Paiscomparável"><a href="">Paraguai</a>(7 003 406)</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td class="unidadefederativa"><a href="">Maranhão</a></td>
+                <td>6 574 789</td>
+                <td>7 153 262</td>
+                <td class="mudança" >+8.80%</td>
+                <td>3,4%</td>
+                <td class="Paiscomparável"><a href="">Paraguai</a>(7 003 406)</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td class="unidadefederativa"><a href="">Amazonas</a></td>
+                <td>3 483 985</td>
+                <td>4 269 995</td>
+                <td class="mudança" >+22.56%</td>
+                <td>2,0%</td>
+                <td class="Paiscomparável"><a href="">Líbano</a>(4 168 000)</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td class="unidadefederativa"><a href="">Espírito Santo</a></td>
+                <td>3 514 952</td>
+                <td>4 108 508</td>
+                <td class="mudança">+16.89%</td>
+                <td>1,9%</td>
+                <td class="Paiscomparável"><a href="">Líbano</a>(4 168 000)</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td class="unidadefederativa"><a href="">Paraíba</a></td>
+                <td>3 766 528</td>
+                <td>4 059 905</td>
+                <td class="mudança" >+7.79%</td>
+                <td>1,9%</td>
+                <td class="Paiscomparável"><a href="">Líbano</a>(4 168 000)</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td class="unidadefederativa"><a href="">Mato Grosso</a></td>
+                <td>3 035 122</td>
+                <td>3 567 234	</td>
+                <td class="mudança">+17.53%</td>
+                <td>1,7%</td>
+                <td class="Paiscomparável"><a href="">Uruguai</a>(3 415 866)</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td class="unidadefederativa"><a href="">Rio Grande do Norte</a></td>
+                <td>3 168 027</td>
+                <td>3 560 903</td>
+                <td class="mudança">+12.40%</td>
+                <td>1,7%</td>
+                <td class="Paiscomparável"><a href="">Uruguai</a>(3 415 866)</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td class="unidadefederativa"><a href="">Alagoas</a></td>
+                <td>3 120 494</td>
+                <td>3 365 351</td>
+                <td class="mudança" >+7.85%</td>
+                <td>1,6%</td>
+                <td class="Paiscomparável"><a href="">Uruguai</a>(3 415 866)</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td class="unidadefederativa"><a href="">Piauí</a></td>
+                <td>3 118 360</td>
+                <td>3 289 290</td>
+                <td class="mudança">+5.48%</td>
+                <td>1,6%</td>
+                <td class="Paiscomparável"><a href="">Kuwait</a>(3 268 431)</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td class="unidadefederativa"><a href="">Distrito Federa</a></td>
+                <td>2 570 160</td>
+                <td>3 094 325</td>
+                <td class="mudança">+20.39%</td>
+                <td>1,4%</td>
+                <td class="Paiscomparável"><a href="">Lituânia</a>(2 900 787)</td>
+            </tr>
+            <tfoot>
+                <th colspan="2" scope="row">Total</th>
+                <th>8.095.805.34</th>
+                <th>100.756.90</th>
+                <th>+200%</th>
+                <th>100%</th>
+                <th>9 987 787</th>
+            </tfoot>
+    </table>
+    
+</body>
+</html>
