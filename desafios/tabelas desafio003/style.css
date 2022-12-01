@@ -1,0 +1,25 @@
+@charset "UFT-8";
+body{
+    font-size: 1em;
+}
+table{ 
+    text-align: center;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 10px;
+    border: 1px solid black;
+}
+.bold{
+    font-weight: bold
+}
+th{
+    color: white;
+    background-color: rgb(128, 128, 128);
+}
+.left{
+    text-align: left;
+}
+.black{
+    color: black;
+}

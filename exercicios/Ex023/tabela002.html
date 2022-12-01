@@ -29,7 +29,8 @@
 
         }
         body{
-            font-family: Arial, Helvetica, sans-serif;          
+            font-family: Arial, Helvetica, sans-serif;  
+            font-weight: bold;
         }
         table{
             border: 1px solid black;
@@ -42,14 +43,19 @@
             text-align: center;
         }
         th{
+            top: -1px;
+            position: sticky;
             color: white;
             background-color: rgba(0, 0, 0, 0.774);
+        }
+        tbody > tr:nth-child(2n){
+            background-color: darkgray;
         }
         .unidadefederativa{
             color: rgb(25, 0, 255);
         }
         .mudança{
-            color: rgb(49, 211, 31);
+            color: rgb(19, 160, 0);
         }
         .Paiscomparável{
             color: rgb(25, 0, 255); 
@@ -67,6 +73,7 @@
         a:visited{
             color: rgb(102, 40, 117);
         }
+
     </style>
     <table>
         <caption>População federativa</caption>
