@@ -9,7 +9,10 @@ a{
     color: white;
     text-decoration: none;
 }
-a:hover{
+li > a:hover{
+    color: rgba(144, 0, 211, 0.562);
+}
+footer > a:hover{
     color: rgba(144, 0, 211, 0.562);
 }
 ul{
@@ -67,6 +70,9 @@ footer{
     justify-content: center;
 }
 input{
+    width: 100%;
+}
+.e-mail{
     height: 30px;
 }
 .mensagem{
@@ -75,3 +81,4 @@ input{
 .send{
     height: 80px;
 }
+
