@@ -1,0 +1,18 @@
+@charset "UFT-8";
+
+table{
+    border-collapse: collapse;
+}
+th,td{
+    padding: 10px;
+    border: 1px solid black;
+}
+th{
+    background-color: rgba(51, 51, 226, 0.712);
+}
+tbody > tr:nth-child(2n){
+    background-color: darkgray;
+}
+.container{
+    overflow-x: auto;
+}
